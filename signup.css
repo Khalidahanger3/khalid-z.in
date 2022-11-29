@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,800&display=swap');
+
+
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins' sans-serif;
+
+}
+
+.logo{
+
+
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: aqua;
+    
+    }
+    
+    .logo-spanh{
+    
+        font-size: 3.5rem;
+    
+    
+    }
+    .logo-span{
+        color:white;
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .logo-span2{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.8rem;
+    
+     }
+    
+     .logo-span3{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.8rem;
+        color: aliceblue;
+     }
+
+     /* body */
+
+    #Full-body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      
+     }
+     .back-video{
+
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+      
+        
+        }
+     .top-form{
+        padding: 10px 25px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        border-bottom: 3px solid rgb(127, 255, 212,0.3); 
+
+     }
+
+     .u{
+        font-size: 2.5rem;
+        color: aquamarine;
+     }
+     .heading-form{
+
+        font-family: 'Poppins';
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: White;
+      
+     }
+
+     form{
+
+        box-shadow: 2px 2px 6px 4px aquamarine;
+        padding: 5px 25px;
+        width: 25%;
+      
+     }
+
+.mobile-input{
+margin-left: 5px;
+    width: 82%;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    padding: 15px 10px;
+    outline: none;
+    background: none;
+    color: white;
+    font-family: 'Poppins';
+    margin-top: 10px;
+    
+
+}
+select{
+padding: 15px 10px;
+width: 15%;
+border: 2px solid aqua;
+border-radius: 5px;
+background: none;
+color: white;
+}
+
+#web-choose{
+   margin-top: 10px;
+   padding: 15px 10px;
+   width: 100%;
+   border: 2px solid aqua;
+   border-radius: 5px;
+   background: none;
+   color: white;
+
+}
+
+
+
+   
+.form-inputs{
+position: relative;
+margin-top: 10px;
+
+}
+
+.textbox{
+width: 100%;
+font-family: 15px;
+font-weight: bold;
+border-radius: 5px;
+padding: 15px 10px;
+outline: none;
+background: none;
+color: white;
+font-family: 'Poppins';
+margin-top: 10px;
+border:none;
+border-bottom: 2px solid aqua;
+border-right: 2px solid aqua;
+}
+
+label{
+color: lightgrey;
+position: absolute;
+font-family: 'Poppins';
+font-weight: 500;
+top: 1.5rem;
+left: 1.4rem;
+cursor: text;
+transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+
+}
+
+.textbox:focus ~label, .textbox:not(:placeholder-shown).textbox:not(:focus)~.label{
+
+top: 2px;
+left: 0.5rem;
+font-size: 10px;
+color: aqua;
+font-family: 'Poppins';
+font-weight: bold;
+background: none;
+
+}
+
+
+.bottom-form{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 1rem;
+width: 100%;
+}
+
+button{
+    padding: 10px 30px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    background: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+     
+}
+
+::placeholder{
+    color: white;
+    font-weight: 500;
+}
+
+.footer-acc{
+
+color: whitesmoke;
+margin-top: 1rem;
+font-size: 1rem;
+font-weight: 500;
+font-family: 'Poppins';
+letter-spacing: 1px;
+border-bottom: 3px solid rgb(127, 255, 212,0.3); 
+}
+
+.hash{
+
+color: aqua;
+font-weight: 500;
+}
+
+.footer-acc a{
+margin-left: 5px;
+text-decoration: none;
+color: aqua;
+
+}
+
+/* media queries */
+
+/* media queris for sign in & signup page */
+
+@media(max-width:1500px){
+
+
+   select{
+       padding: 15px 5px;
+       width: 20%;
+       border: 2px solid aqua;
+       border-radius: 5px;
+       background: none;
+       color: white;
+       }
+
+       .mobile-input{
+         margin-left: 5px;
+             width: 76%;
+            
+             padding: 15px 10px;
+             
+         
+         }
+
+
+
+
+
+
+   
+}
+
+
+@media(max-width:1200px){
+
+
+
+   form{
+
+      box-shadow: 2px 2px 6px 4px aquamarine;
+      padding: 5px 25px;
+      width: 40%;
+    
+   }
+
+
+
+
+   
+}
+
+@media(max-width:750px){
+
+
+
+   form{
+
+      box-shadow: 2px 2px 6px 4px aquamarine;
+      padding: 5px 25px;
+      width: 60%;
+    
+   }
+
+
+
+
+   
+}
+
+@media(max-width:550px){
+
+
+
+   form{
+
+      box-shadow: 2px 2px 6px 4px aquamarine;
+      padding: 5px 25px;
+      width: 80%;
+    
+   }
+
+   select{
+      padding: 15px 2px;
+      width: 20%;
+      border: 2px solid aqua;
+      border-radius: 5px;
+      background: none;
+      color: white;
+      }
+      .footer-acc{
+
+         color: whitesmoke;
+         margin-top: 1.5rem;
+         font-size: 12px;
+         font-weight: 500;
+       
+    
+         }
+         
+   
+}
+
+@media(max-width:420px){
+
+
+
+   form{
+
+      box-shadow: 2px 2px 6px 4px aquamarine;
+      padding: 5px 25px;
+      width: 85%;
+    
+   }
+
+   select{
+      padding: 10px 1px;
+      width: 20%;
+      border: 2px solid aqua;
+      border-radius: 5px;
+      background: none;
+      color: white;
+      }
+
+   
+}
